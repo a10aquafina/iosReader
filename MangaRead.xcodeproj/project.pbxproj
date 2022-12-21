@@ -1,0 +1,1226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181E002827082D820008A3B6 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E002727082D820008A3B6 /* HomeService.swift */; };
+		182D862627684290001C1401 /* saveChildrenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D862427684290001C1401 /* saveChildrenCollectionViewCell.swift */; };
+		182D862727684291001C1401 /* saveChildrenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182D862527684290001C1401 /* saveChildrenCollectionViewCell.xib */; };
+		182D862C2768566E001C1401 /* History_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D862B2768566E001C1401 /* History_Model.swift */; };
+		182D863227685907001C1401 /* HisChildrenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D863027685907001C1401 /* HisChildrenCollectionViewCell.swift */; };
+		182D863327685907001C1401 /* HisChildrenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182D863127685907001C1401 /* HisChildrenCollectionViewCell.xib */; };
+		182D863827687DCC001C1401 /* searchbtn_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D863727687DCC001C1401 /* searchbtn_model.swift */; };
+		182D863D27688043001C1401 /* Search_Type_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D863C27688043001C1401 /* Search_Type_Model.swift */; };
+		182D8642276880DE001C1401 /* Search_Type_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D8641276880DE001C1401 /* Search_Type_Service.swift */; };
+		182D864C27688E67001C1401 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D864A27688E67001C1401 /* CollectionViewCell.swift */; };
+		182D864D27688E67001C1401 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182D864B27688E67001C1401 /* CollectionViewCell.xib */; };
+		18473663275C534200A90E9F /* TypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18473662275C534200A90E9F /* TypeModel.swift */; };
+		18473668275C549400A90E9F /* TypeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18473667275C549400A90E9F /* TypeService.swift */; };
+		184DA8412727E8E00030B2C3 /* ReadChapterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DA8402727E8E00030B2C3 /* ReadChapterModel.swift */; };
+		184DA8462727E9520030B2C3 /* ReadChapterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DA8452727E9520030B2C3 /* ReadChapterService.swift */; };
+		1850B7FD275C592400E48C94 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850B7FC275C592400E48C94 /* SearchViewController.swift */; };
+		1856C09D270AAE0000292B4F /* MangaUpdateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856C09C270AAE0000292B4F /* MangaUpdateModel.swift */; };
+		1856C0A8270AB8C100292B4F /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856C0A7270AB8C100292B4F /* Extention.swift */; };
+		1856D622272654B0001E9D96 /* InforViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856D621272654B0001E9D96 /* InforViewController.swift */; };
+		1856D629272655FB001E9D96 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856D627272655FB001E9D96 /* ImageCollectionViewCell.swift */; };
+		1856D62A272655FB001E9D96 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1856D628272655FB001E9D96 /* ImageCollectionViewCell.xib */; };
+		1856D63027265645001E9D96 /* InforMangaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856D62E27265645001E9D96 /* InforMangaCollectionViewCell.swift */; };
+		1856D63127265645001E9D96 /* InforMangaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1856D62F27265645001E9D96 /* InforMangaCollectionViewCell.xib */; };
+		1856D6372726565E001E9D96 /* collctionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856D6352726565E001E9D96 /* collctionCollectionViewCell.swift */; };
+		1856D6382726565E001E9D96 /* collctionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1856D6362726565E001E9D96 /* collctionCollectionViewCell.xib */; };
+		1856D63D2726B087001E9D96 /* AuthorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856D63C2726B087001E9D96 /* AuthorModel.swift */; };
+		1856D6422726B399001E9D96 /* AuthorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856D6412726B399001E9D96 /* AuthorService.swift */; };
+		185EC4CB2716DB9D00190FB7 /* ChpaterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EC4C92716DB9D00190FB7 /* ChpaterCollectionViewCell.swift */; };
+		185EC4CC2716DB9D00190FB7 /* ChpaterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185EC4CA2716DB9D00190FB7 /* ChpaterCollectionViewCell.xib */; };
+		18652013274E2FE400A1C896 /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18652012274E2FE400A1C896 /* historyViewController.swift */; };
+		187181BC2754DEC900CB9BFB /* Down_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187181BB2754DEC900CB9BFB /* Down_Model.swift */; };
+		1879F6342714016D0065CEFF /* TruyenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879F6332714016D0065CEFF /* TruyenViewController.swift */; };
+		1879F63B27140F020065CEFF /* TruyenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879F63927140F020065CEFF /* TruyenCollectionViewCell.swift */; };
+		1879F63C27140F020065CEFF /* TruyenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1879F63A27140F020065CEFF /* TruyenCollectionViewCell.xib */; };
+		1879F647271410E50065CEFF /* TruyenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879F646271410E50065CEFF /* TruyenService.swift */; };
+		1879F64C271413460065CEFF /* truyenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879F64B271413460065CEFF /* truyenModel.swift */; };
+		1889B6F12706065E0006866F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889B6F02706065E0006866F /* AppDelegate.swift */; };
+		1889B6F32706065E0006866F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889B6F22706065E0006866F /* SceneDelegate.swift */; };
+		1889B6F82706065E0006866F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1889B6F62706065E0006866F /* Main.storyboard */; };
+		1889B6FA2706065F0006866F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1889B6F92706065F0006866F /* Assets.xcassets */; };
+		1889B6FD2706065F0006866F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1889B6FB2706065F0006866F /* LaunchScreen.storyboard */; };
+		1889B7082706065F0006866F /* MangaReadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889B7072706065F0006866F /* MangaReadTests.swift */; };
+		1889B713270606600006866F /* MangaReadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889B712270606600006866F /* MangaReadUITests.swift */; };
+		188E3A802721A534006605C3 /* LabelPopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A7E2721A534006605C3 /* LabelPopularCollectionViewCell.swift */; };
+		188E3A812721A534006605C3 /* LabelPopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A7F2721A534006605C3 /* LabelPopularCollectionViewCell.xib */; };
+		188E3A8A2721A551006605C3 /* LabelLastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E3A882721A551006605C3 /* LabelLastCollectionViewCell.swift */; };
+		188E3A8B2721A551006605C3 /* LabelLastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188E3A892721A551006605C3 /* LabelLastCollectionViewCell.xib */; };
+		1893066C271FCCA0007F0786 /* Home1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893066B271FCCA0007F0786 /* Home1ViewController.swift */; };
+		18930679271FCDAE007F0786 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18930677271FCDAE007F0786 /* PopularCollectionViewCell.swift */; };
+		1893067A271FCDAE007F0786 /* PopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18930678271FCDAE007F0786 /* PopularCollectionViewCell.xib */; };
+		18930680271FCDD1007F0786 /* LastestChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893067E271FCDD1007F0786 /* LastestChapterCollectionViewCell.swift */; };
+		18930681271FCDD1007F0786 /* LastestChapterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1893067F271FCDD1007F0786 /* LastestChapterCollectionViewCell.xib */; };
+		18930690271FEB05007F0786 /* pplarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893068E271FEB05007F0786 /* pplarCollectionViewCell.swift */; };
+		18930691271FEB05007F0786 /* pplarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1893068F271FEB05007F0786 /* pplarCollectionViewCell.xib */; };
+		18930697271FF82C007F0786 /* LatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18930695271FF82C007F0786 /* LatCollectionViewCell.swift */; };
+		18930698271FF82C007F0786 /* LatCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18930696271FF82C007F0786 /* LatCollectionViewCell.xib */; };
+		189B41D52759DDB8007D285A /* hisCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B41D32759DDB8007D285A /* hisCollectionViewCell.swift */; };
+		189B41D62759DDB8007D285A /* hisCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189B41D42759DDB8007D285A /* hisCollectionViewCell.xib */; };
+		189EDC9A2747668C000FFE54 /* PageViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EDC982747668C000FFE54 /* PageViewCollectionViewCell.swift */; };
+		189EDC9B2747668C000FFE54 /* PageViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189EDC992747668C000FFE54 /* PageViewCollectionViewCell.xib */; };
+		18A575942760A08600CE3F85 /* CollhisCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A575922760A08600CE3F85 /* CollhisCollectionViewCell.swift */; };
+		18A575952760A08600CE3F85 /* CollhisCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A575932760A08600CE3F85 /* CollhisCollectionViewCell.xib */; };
+		18A5759A2760A1FC00CE3F85 /* AfterSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A575992760A1FC00CE3F85 /* AfterSearchViewController.swift */; };
+		18AC69CF274C9DDA00F99ADF /* Cus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC69CE274C9DDA00F99ADF /* Cus.swift */; };
+		18AC69D5274CAD1100F99ADF /* buttonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC69D3274CAD1100F99ADF /* buttonCollectionViewCell.swift */; };
+		18AC69D6274CAD1100F99ADF /* buttonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AC69D4274CAD1100F99ADF /* buttonCollectionViewCell.xib */; };
+		18AC69DC274CC26E00F99ADF /* FavouriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC69DB274CC26E00F99ADF /* FavouriteModel.swift */; };
+		18BBA8252761D86D00BEE773 /* CGPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA8242761D86D00BEE773 /* CGPageMenu.swift */; };
+		18BBA858276205CC00BEE773 /* favCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA856276205CC00BEE773 /* favCollectionViewCell.swift */; };
+		18BBA859276205CC00BEE773 /* favCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA857276205CC00BEE773 /* favCollectionViewCell.xib */; };
+		18BBA8622762068900BEE773 /* favChildernCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA8602762068900BEE773 /* favChildernCollectionViewCell.swift */; };
+		18BBA8632762068900BEE773 /* favChildernCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA8612762068900BEE773 /* favChildernCollectionViewCell.xib */; };
+		18BF38DA2769CE0D000BDFDE /* TextSearch_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF38D92769CE0D000BDFDE /* TextSearch_Model.swift */; };
+		18BF38DF2769CF70000BDFDE /* SearCh_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF38DE2769CF70000BDFDE /* SearCh_Service.swift */; };
+		18BF38E42769D740000BDFDE /* TextSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF38E32769D740000BDFDE /* TextSearchViewController.swift */; };
+		18BF38EA276A03AB000BDFDE /* SearchTextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF38E8276A03AB000BDFDE /* SearchTextCollectionViewCell.swift */; };
+		18BF38EB276A03AB000BDFDE /* SearchTextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BF38E9276A03AB000BDFDE /* SearchTextCollectionViewCell.xib */; };
+		18BF38F8276A0BD3000BDFDE /* conCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF38F6276A0BD3000BDFDE /* conCollectionViewCell.swift */; };
+		18BF38F9276A0BD3000BDFDE /* conCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BF38F7276A0BD3000BDFDE /* conCollectionViewCell.xib */; };
+		18BF3905276A1124000BDFDE /* imagedatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF3903276A1124000BDFDE /* imagedatCollectionViewCell.swift */; };
+		18BF3906276A1124000BDFDE /* imagedatCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BF3904276A1124000BDFDE /* imagedatCollectionViewCell.xib */; };
+		18C4F42627157D0300B2B6FC /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4F42527157D0300B2B6FC /* TitleModel.swift */; };
+		18C4F42B2715988800B2B6FC /* TitleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4F42A2715988800B2B6FC /* TitleService.swift */; };
+		18D700A2275F10FD0099DF70 /* Type_SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D700A0275F10FD0099DF70 /* Type_SearchCollectionViewCell.swift */; };
+		18D700A3275F10FD0099DF70 /* Type_SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D700A1275F10FD0099DF70 /* Type_SearchCollectionViewCell.xib */; };
+		18D700AC275F13FC0099DF70 /* History_SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D700AA275F13FC0099DF70 /* History_SearchCollectionViewCell.swift */; };
+		18D700AD275F13FC0099DF70 /* History_SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D700AB275F13FC0099DF70 /* History_SearchCollectionViewCell.xib */; };
+		18D700B3275F38120099DF70 /* LabelTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D700B1275F38120099DF70 /* LabelTypeCollectionViewCell.swift */; };
+		18D700B4275F38120099DF70 /* LabelTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D700B2275F38120099DF70 /* LabelTypeCollectionViewCell.xib */; };
+		18D700BD275F389A0099DF70 /* historyCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D700BB275F389A0099DF70 /* historyCellCollectionViewCell.swift */; };
+		18D700BE275F389A0099DF70 /* historyCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D700BC275F389A0099DF70 /* historyCellCollectionViewCell.xib */; };
+		18D700C7275F41190099DF70 /* CollecCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D700C5275F41190099DF70 /* CollecCollectionViewCell.swift */; };
+		18D700C8275F411A0099DF70 /* CollecCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D700C6275F41190099DF70 /* CollecCollectionViewCell.xib */; };
+		18EB0E872756285100462AE8 /* saveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB0E852756285100462AE8 /* saveCollectionViewCell.swift */; };
+		18EB0E882756285100462AE8 /* saveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB0E862756285100462AE8 /* saveCollectionViewCell.xib */; };
+		1F1FC5C6E604DFE31020DF26 /* Pods_MangaRead_MangaReadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D4EAB3583818247454448 /* Pods_MangaRead_MangaReadUITests.framework */; };
+		6252CBBD663974CFE8373688 /* Pods_MangaRead.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D35FB7DF761295E370C853E /* Pods_MangaRead.framework */; };
+		97310089785BB3A03F90A762 /* Pods_MangaReadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E107E2A9CF568CBBCE0E58AA /* Pods_MangaReadTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1889B7042706065F0006866F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1889B6E52706065E0006866F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1889B6EC2706065E0006866F;
+			remoteInfo = MangaRead;
+		};
+		1889B70F270606600006866F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1889B6E52706065E0006866F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1889B6EC2706065E0006866F;
+			remoteInfo = MangaRead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181E002727082D820008A3B6 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		182D862427684290001C1401 /* saveChildrenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveChildrenCollectionViewCell.swift; sourceTree = "<group>"; };
+		182D862527684290001C1401 /* saveChildrenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = saveChildrenCollectionViewCell.xib; sourceTree = "<group>"; };
+		182D862B2768566E001C1401 /* History_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History_Model.swift; sourceTree = "<group>"; };
+		182D863027685907001C1401 /* HisChildrenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisChildrenCollectionViewCell.swift; sourceTree = "<group>"; };
+		182D863127685907001C1401 /* HisChildrenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HisChildrenCollectionViewCell.xib; sourceTree = "<group>"; };
+		182D863727687DCC001C1401 /* searchbtn_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchbtn_model.swift; sourceTree = "<group>"; };
+		182D863C27688043001C1401 /* Search_Type_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Type_Model.swift; sourceTree = "<group>"; };
+		182D8641276880DE001C1401 /* Search_Type_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Type_Service.swift; sourceTree = "<group>"; };
+		182D864A27688E67001C1401 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		182D864B27688E67001C1401 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		18473662275C534200A90E9F /* TypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeModel.swift; sourceTree = "<group>"; };
+		18473667275C549400A90E9F /* TypeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeService.swift; sourceTree = "<group>"; };
+		184DA8402727E8E00030B2C3 /* ReadChapterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadChapterModel.swift; sourceTree = "<group>"; };
+		184DA8452727E9520030B2C3 /* ReadChapterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadChapterService.swift; sourceTree = "<group>"; };
+		1850B7FC275C592400E48C94 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1856C09C270AAE0000292B4F /* MangaUpdateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaUpdateModel.swift; sourceTree = "<group>"; };
+		1856C0A7270AB8C100292B4F /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		1856D621272654B0001E9D96 /* InforViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InforViewController.swift; sourceTree = "<group>"; };
+		1856D627272655FB001E9D96 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		1856D628272655FB001E9D96 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		1856D62E27265645001E9D96 /* InforMangaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InforMangaCollectionViewCell.swift; sourceTree = "<group>"; };
+		1856D62F27265645001E9D96 /* InforMangaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InforMangaCollectionViewCell.xib; sourceTree = "<group>"; };
+		1856D6352726565E001E9D96 /* collctionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collctionCollectionViewCell.swift; sourceTree = "<group>"; };
+		1856D6362726565E001E9D96 /* collctionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = collctionCollectionViewCell.xib; sourceTree = "<group>"; };
+		1856D63C2726B087001E9D96 /* AuthorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorModel.swift; sourceTree = "<group>"; };
+		1856D6412726B399001E9D96 /* AuthorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorService.swift; sourceTree = "<group>"; };
+		185EC4C92716DB9D00190FB7 /* ChpaterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChpaterCollectionViewCell.swift; sourceTree = "<group>"; };
+		185EC4CA2716DB9D00190FB7 /* ChpaterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChpaterCollectionViewCell.xib; sourceTree = "<group>"; };
+		18652012274E2FE400A1C896 /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
+		187181BB2754DEC900CB9BFB /* Down_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Down_Model.swift; sourceTree = "<group>"; };
+		1879F6332714016D0065CEFF /* TruyenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruyenViewController.swift; sourceTree = "<group>"; };
+		1879F63927140F020065CEFF /* TruyenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruyenCollectionViewCell.swift; sourceTree = "<group>"; };
+		1879F63A27140F020065CEFF /* TruyenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TruyenCollectionViewCell.xib; sourceTree = "<group>"; };
+		1879F646271410E50065CEFF /* TruyenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruyenService.swift; sourceTree = "<group>"; };
+		1879F64B271413460065CEFF /* truyenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = truyenModel.swift; sourceTree = "<group>"; };
+		1889B6ED2706065E0006866F /* MangaRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889B6F02706065E0006866F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1889B6F22706065E0006866F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1889B6F72706065E0006866F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1889B6F92706065F0006866F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1889B6FC2706065F0006866F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1889B6FE2706065F0006866F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1889B7032706065F0006866F /* MangaReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaReadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889B7072706065F0006866F /* MangaReadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaReadTests.swift; sourceTree = "<group>"; };
+		1889B7092706065F0006866F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1889B70E270606600006866F /* MangaReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaReadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889B712270606600006866F /* MangaReadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaReadUITests.swift; sourceTree = "<group>"; };
+		1889B714270606600006866F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188E3A7E2721A534006605C3 /* LabelPopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		188E3A7F2721A534006605C3 /* LabelPopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelPopularCollectionViewCell.xib; sourceTree = "<group>"; };
+		188E3A882721A551006605C3 /* LabelLastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelLastCollectionViewCell.swift; sourceTree = "<group>"; };
+		188E3A892721A551006605C3 /* LabelLastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelLastCollectionViewCell.xib; sourceTree = "<group>"; };
+		1893066B271FCCA0007F0786 /* Home1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home1ViewController.swift; sourceTree = "<group>"; };
+		18930677271FCDAE007F0786 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		18930678271FCDAE007F0786 /* PopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularCollectionViewCell.xib; sourceTree = "<group>"; };
+		1893067E271FCDD1007F0786 /* LastestChapterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastestChapterCollectionViewCell.swift; sourceTree = "<group>"; };
+		1893067F271FCDD1007F0786 /* LastestChapterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LastestChapterCollectionViewCell.xib; sourceTree = "<group>"; };
+		1893068E271FEB05007F0786 /* pplarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pplarCollectionViewCell.swift; sourceTree = "<group>"; };
+		1893068F271FEB05007F0786 /* pplarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pplarCollectionViewCell.xib; sourceTree = "<group>"; };
+		18930695271FF82C007F0786 /* LatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatCollectionViewCell.swift; sourceTree = "<group>"; };
+		18930696271FF82C007F0786 /* LatCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LatCollectionViewCell.xib; sourceTree = "<group>"; };
+		189B41D32759DDB8007D285A /* hisCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hisCollectionViewCell.swift; sourceTree = "<group>"; };
+		189B41D42759DDB8007D285A /* hisCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = hisCollectionViewCell.xib; sourceTree = "<group>"; };
+		189EDC982747668C000FFE54 /* PageViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		189EDC992747668C000FFE54 /* PageViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		18A575922760A08600CE3F85 /* CollhisCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollhisCollectionViewCell.swift; sourceTree = "<group>"; };
+		18A575932760A08600CE3F85 /* CollhisCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollhisCollectionViewCell.xib; sourceTree = "<group>"; };
+		18A575992760A1FC00CE3F85 /* AfterSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterSearchViewController.swift; sourceTree = "<group>"; };
+		18AC69CE274C9DDA00F99ADF /* Cus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cus.swift; sourceTree = "<group>"; };
+		18AC69D3274CAD1100F99ADF /* buttonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonCollectionViewCell.swift; sourceTree = "<group>"; };
+		18AC69D4274CAD1100F99ADF /* buttonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = buttonCollectionViewCell.xib; sourceTree = "<group>"; };
+		18AC69DB274CC26E00F99ADF /* FavouriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteModel.swift; sourceTree = "<group>"; };
+		18BBA8242761D86D00BEE773 /* CGPageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPageMenu.swift; sourceTree = "<group>"; };
+		18BBA856276205CC00BEE773 /* favCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favCollectionViewCell.swift; sourceTree = "<group>"; };
+		18BBA857276205CC00BEE773 /* favCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = favCollectionViewCell.xib; sourceTree = "<group>"; };
+		18BBA8602762068900BEE773 /* favChildernCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favChildernCollectionViewCell.swift; sourceTree = "<group>"; };
+		18BBA8612762068900BEE773 /* favChildernCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = favChildernCollectionViewCell.xib; sourceTree = "<group>"; };
+		18BF38D92769CE0D000BDFDE /* TextSearch_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSearch_Model.swift; sourceTree = "<group>"; };
+		18BF38DE2769CF70000BDFDE /* SearCh_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearCh_Service.swift; sourceTree = "<group>"; };
+		18BF38E32769D740000BDFDE /* TextSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSearchViewController.swift; sourceTree = "<group>"; };
+		18BF38E8276A03AB000BDFDE /* SearchTextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextCollectionViewCell.swift; sourceTree = "<group>"; };
+		18BF38E9276A03AB000BDFDE /* SearchTextCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTextCollectionViewCell.xib; sourceTree = "<group>"; };
+		18BF38F6276A0BD3000BDFDE /* conCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conCollectionViewCell.swift; sourceTree = "<group>"; };
+		18BF38F7276A0BD3000BDFDE /* conCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = conCollectionViewCell.xib; sourceTree = "<group>"; };
+		18BF3903276A1124000BDFDE /* imagedatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagedatCollectionViewCell.swift; sourceTree = "<group>"; };
+		18BF3904276A1124000BDFDE /* imagedatCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = imagedatCollectionViewCell.xib; sourceTree = "<group>"; };
+		18C4F42527157D0300B2B6FC /* TitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
+		18C4F42A2715988800B2B6FC /* TitleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleService.swift; sourceTree = "<group>"; };
+		18D700A0275F10FD0099DF70 /* Type_SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type_SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D700A1275F10FD0099DF70 /* Type_SearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Type_SearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D700AA275F13FC0099DF70 /* History_SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History_SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D700AB275F13FC0099DF70 /* History_SearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = History_SearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D700B1275F38120099DF70 /* LabelTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D700B2275F38120099DF70 /* LabelTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D700BB275F389A0099DF70 /* historyCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D700BC275F389A0099DF70 /* historyCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = historyCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D700C5275F41190099DF70 /* CollecCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollecCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D700C6275F41190099DF70 /* CollecCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollecCollectionViewCell.xib; sourceTree = "<group>"; };
+		18EB0E852756285100462AE8 /* saveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveCollectionViewCell.swift; sourceTree = "<group>"; };
+		18EB0E862756285100462AE8 /* saveCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = saveCollectionViewCell.xib; sourceTree = "<group>"; };
+		1F0E7659AB6798F02D8B6FFD /* Pods-MangaRead.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaRead.debug.xcconfig"; path = "Target Support Files/Pods-MangaRead/Pods-MangaRead.debug.xcconfig"; sourceTree = "<group>"; };
+		21ECAD8203E01479F10DE73C /* Pods-MangaRead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaRead.release.xcconfig"; path = "Target Support Files/Pods-MangaRead/Pods-MangaRead.release.xcconfig"; sourceTree = "<group>"; };
+		2D35FB7DF761295E370C853E /* Pods_MangaRead.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaRead.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F36616CD887A990C00F0A37 /* Pods-MangaReadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaReadTests.release.xcconfig"; path = "Target Support Files/Pods-MangaReadTests/Pods-MangaReadTests.release.xcconfig"; sourceTree = "<group>"; };
+		817FE945648F4C9050BFD2D4 /* Pods-MangaRead-MangaReadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaRead-MangaReadUITests.debug.xcconfig"; path = "Target Support Files/Pods-MangaRead-MangaReadUITests/Pods-MangaRead-MangaReadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96FF24CD85916BE4A9310752 /* Pods-MangaRead-MangaReadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaRead-MangaReadUITests.release.xcconfig"; path = "Target Support Files/Pods-MangaRead-MangaReadUITests/Pods-MangaRead-MangaReadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E2DF19868AB18C8E0DFC768 /* Pods-MangaReadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaReadTests.debug.xcconfig"; path = "Target Support Files/Pods-MangaReadTests/Pods-MangaReadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6D4EAB3583818247454448 /* Pods_MangaRead_MangaReadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaRead_MangaReadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E107E2A9CF568CBBCE0E58AA /* Pods_MangaReadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaReadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1889B6EA2706065E0006866F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6252CBBD663974CFE8373688 /* Pods_MangaRead.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889B7002706065F0006866F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97310089785BB3A03F90A762 /* Pods_MangaReadTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889B70B270606600006866F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1FC5C6E604DFE31020DF26 /* Pods_MangaRead_MangaReadUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182D864927688E54001C1401 /* AfterSearch */ = {
+			isa = PBXGroup;
+			children = (
+				182D864A27688E67001C1401 /* CollectionViewCell.swift */,
+				182D864B27688E67001C1401 /* CollectionViewCell.xib */,
+				18BF38E8276A03AB000BDFDE /* SearchTextCollectionViewCell.swift */,
+				18BF38E9276A03AB000BDFDE /* SearchTextCollectionViewCell.xib */,
+				18BF3903276A1124000BDFDE /* imagedatCollectionViewCell.swift */,
+				18BF3904276A1124000BDFDE /* imagedatCollectionViewCell.xib */,
+				18BF38F6276A0BD3000BDFDE /* conCollectionViewCell.swift */,
+				18BF38F7276A0BD3000BDFDE /* conCollectionViewCell.xib */,
+			);
+			path = AfterSearch;
+			sourceTree = "<group>";
+		};
+		182D86542768A055001C1401 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		18473661275C532F00A90E9F /* Type_Search */ = {
+			isa = PBXGroup;
+			children = (
+				18473662275C534200A90E9F /* TypeModel.swift */,
+				18BF38D92769CE0D000BDFDE /* TextSearch_Model.swift */,
+			);
+			path = Type_Search;
+			sourceTree = "<group>";
+		};
+		1856D626272655B2001E9D96 /* InforCell */ = {
+			isa = PBXGroup;
+			children = (
+				1856D627272655FB001E9D96 /* ImageCollectionViewCell.swift */,
+				1856D628272655FB001E9D96 /* ImageCollectionViewCell.xib */,
+				1856D62E27265645001E9D96 /* InforMangaCollectionViewCell.swift */,
+				1856D62F27265645001E9D96 /* InforMangaCollectionViewCell.xib */,
+				1856D6352726565E001E9D96 /* collctionCollectionViewCell.swift */,
+				1856D6362726565E001E9D96 /* collctionCollectionViewCell.xib */,
+				18AC69D3274CAD1100F99ADF /* buttonCollectionViewCell.swift */,
+				18AC69D4274CAD1100F99ADF /* buttonCollectionViewCell.xib */,
+			);
+			path = InforCell;
+			sourceTree = "<group>";
+		};
+		185C4463270754290029AEA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185C44672707543B0029AEA7 /* CollectionCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185C44672707543B0029AEA7 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				182D864927688E54001C1401 /* AfterSearch */,
+				18D7009F275F0F160099DF70 /* Type_Search_Cell */,
+				187181B12754941F00CB9BFB /* historyCell */,
+				1856D626272655B2001E9D96 /* InforCell */,
+				185EC4C82716DB6B00190FB7 /* Chapter */,
+				1879F63827140EE50065CEFF /* TruyenCell */,
+				185C4468270754580029AEA7 /* HomeCell */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		185C4468270754580029AEA7 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				188E3A7E2721A534006605C3 /* LabelPopularCollectionViewCell.swift */,
+				188E3A7F2721A534006605C3 /* LabelPopularCollectionViewCell.xib */,
+				18930677271FCDAE007F0786 /* PopularCollectionViewCell.swift */,
+				18930678271FCDAE007F0786 /* PopularCollectionViewCell.xib */,
+				189EDC982747668C000FFE54 /* PageViewCollectionViewCell.swift */,
+				189EDC992747668C000FFE54 /* PageViewCollectionViewCell.xib */,
+				1893068E271FEB05007F0786 /* pplarCollectionViewCell.swift */,
+				1893068F271FEB05007F0786 /* pplarCollectionViewCell.xib */,
+				188E3A882721A551006605C3 /* LabelLastCollectionViewCell.swift */,
+				188E3A892721A551006605C3 /* LabelLastCollectionViewCell.xib */,
+				1893067E271FCDD1007F0786 /* LastestChapterCollectionViewCell.swift */,
+				1893067F271FCDD1007F0786 /* LastestChapterCollectionViewCell.xib */,
+				18930695271FF82C007F0786 /* LatCollectionViewCell.swift */,
+				18930696271FF82C007F0786 /* LatCollectionViewCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		185C4477270754C70029AEA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18473661275C532F00A90E9F /* Type_Search */,
+				18AC69DA274CC24D00F99ADF /* Favourite */,
+				1856C09C270AAE0000292B4F /* MangaUpdateModel.swift */,
+				1879F64B271413460065CEFF /* truyenModel.swift */,
+				18C4F42527157D0300B2B6FC /* TitleModel.swift */,
+				1856D63C2726B087001E9D96 /* AuthorModel.swift */,
+				184DA8402727E8E00030B2C3 /* ReadChapterModel.swift */,
+				182D863C27688043001C1401 /* Search_Type_Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185C4478270754D50029AEA7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				181E002727082D820008A3B6 /* HomeService.swift */,
+				1879F646271410E50065CEFF /* TruyenService.swift */,
+				18C4F42A2715988800B2B6FC /* TitleService.swift */,
+				1856D6412726B399001E9D96 /* AuthorService.swift */,
+				184DA8452727E9520030B2C3 /* ReadChapterService.swift */,
+				18473667275C549400A90E9F /* TypeService.swift */,
+				182D8641276880DE001C1401 /* Search_Type_Service.swift */,
+				18BF38DE2769CF70000BDFDE /* SearCh_Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		185EC4C82716DB6B00190FB7 /* Chapter */ = {
+			isa = PBXGroup;
+			children = (
+				185EC4C92716DB9D00190FB7 /* ChpaterCollectionViewCell.swift */,
+				185EC4CA2716DB9D00190FB7 /* ChpaterCollectionViewCell.xib */,
+			);
+			path = Chapter;
+			sourceTree = "<group>";
+		};
+		187181B12754941F00CB9BFB /* historyCell */ = {
+			isa = PBXGroup;
+			children = (
+				18EB0E852756285100462AE8 /* saveCollectionViewCell.swift */,
+				18EB0E862756285100462AE8 /* saveCollectionViewCell.xib */,
+				189B41D32759DDB8007D285A /* hisCollectionViewCell.swift */,
+				189B41D42759DDB8007D285A /* hisCollectionViewCell.xib */,
+				18BBA856276205CC00BEE773 /* favCollectionViewCell.swift */,
+				18BBA857276205CC00BEE773 /* favCollectionViewCell.xib */,
+				18BBA8602762068900BEE773 /* favChildernCollectionViewCell.swift */,
+				18BBA8612762068900BEE773 /* favChildernCollectionViewCell.xib */,
+				182D862427684290001C1401 /* saveChildrenCollectionViewCell.swift */,
+				182D862527684290001C1401 /* saveChildrenCollectionViewCell.xib */,
+				182D863027685907001C1401 /* HisChildrenCollectionViewCell.swift */,
+				182D863127685907001C1401 /* HisChildrenCollectionViewCell.xib */,
+			);
+			path = historyCell;
+			sourceTree = "<group>";
+		};
+		1879F63827140EE50065CEFF /* TruyenCell */ = {
+			isa = PBXGroup;
+			children = (
+				1879F63927140F020065CEFF /* TruyenCollectionViewCell.swift */,
+				1879F63A27140F020065CEFF /* TruyenCollectionViewCell.xib */,
+			);
+			path = TruyenCell;
+			sourceTree = "<group>";
+		};
+		187DCB0927060DCE0022B951 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1893066B271FCCA0007F0786 /* Home1ViewController.swift */,
+				1879F6332714016D0065CEFF /* TruyenViewController.swift */,
+				18652012274E2FE400A1C896 /* historyViewController.swift */,
+				1856D621272654B0001E9D96 /* InforViewController.swift */,
+				1850B7FC275C592400E48C94 /* SearchViewController.swift */,
+				18A575992760A1FC00CE3F85 /* AfterSearchViewController.swift */,
+				18BF38E32769D740000BDFDE /* TextSearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1889B6E42706065E0006866F = {
+			isa = PBXGroup;
+			children = (
+				1889B6EF2706065E0006866F /* MangaRead */,
+				1889B7062706065F0006866F /* MangaReadTests */,
+				1889B711270606600006866F /* MangaReadUITests */,
+				1889B6EE2706065E0006866F /* Products */,
+				BAC1AEDC4D0BAC172EC7D5E1 /* Pods */,
+				3AA720FC1A2939D01F701F8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1889B6EE2706065E0006866F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1889B6ED2706065E0006866F /* MangaRead.app */,
+				1889B7032706065F0006866F /* MangaReadTests.xctest */,
+				1889B70E270606600006866F /* MangaReadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1889B6EF2706065E0006866F /* MangaRead */ = {
+			isa = PBXGroup;
+			children = (
+				18AC69C5274C9D4400F99ADF /* Extention */,
+				187DCB0927060DCE0022B951 /* ViewController */,
+				185C4463270754290029AEA7 /* View */,
+				185C4477270754C70029AEA7 /* Model */,
+				185C4478270754D50029AEA7 /* Service */,
+				1889B6F62706065E0006866F /* Main.storyboard */,
+				1889B6F02706065E0006866F /* AppDelegate.swift */,
+				1889B6F22706065E0006866F /* SceneDelegate.swift */,
+				1889B6F92706065F0006866F /* Assets.xcassets */,
+				182D86542768A055001C1401 /* New Group */,
+				1889B6FB2706065F0006866F /* LaunchScreen.storyboard */,
+				1889B6FE2706065F0006866F /* Info.plist */,
+			);
+			path = MangaRead;
+			sourceTree = "<group>";
+		};
+		1889B7062706065F0006866F /* MangaReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				1889B7072706065F0006866F /* MangaReadTests.swift */,
+				1889B7092706065F0006866F /* Info.plist */,
+			);
+			path = MangaReadTests;
+			sourceTree = "<group>";
+		};
+		1889B711270606600006866F /* MangaReadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1889B712270606600006866F /* MangaReadUITests.swift */,
+				1889B714270606600006866F /* Info.plist */,
+			);
+			path = MangaReadUITests;
+			sourceTree = "<group>";
+		};
+		18AC69C5274C9D4400F99ADF /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				1856C0A7270AB8C100292B4F /* Extention.swift */,
+				18AC69CE274C9DDA00F99ADF /* Cus.swift */,
+				18BBA8242761D86D00BEE773 /* CGPageMenu.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		18AC69DA274CC24D00F99ADF /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				187181BB2754DEC900CB9BFB /* Down_Model.swift */,
+				18AC69DB274CC26E00F99ADF /* FavouriteModel.swift */,
+				182D862B2768566E001C1401 /* History_Model.swift */,
+				182D863727687DCC001C1401 /* searchbtn_model.swift */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		18D7009F275F0F160099DF70 /* Type_Search_Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18D700B1275F38120099DF70 /* LabelTypeCollectionViewCell.swift */,
+				18D700B2275F38120099DF70 /* LabelTypeCollectionViewCell.xib */,
+				18D700A0275F10FD0099DF70 /* Type_SearchCollectionViewCell.swift */,
+				18D700A1275F10FD0099DF70 /* Type_SearchCollectionViewCell.xib */,
+				18D700BB275F389A0099DF70 /* historyCellCollectionViewCell.swift */,
+				18D700BC275F389A0099DF70 /* historyCellCollectionViewCell.xib */,
+				18D700AA275F13FC0099DF70 /* History_SearchCollectionViewCell.swift */,
+				18D700AB275F13FC0099DF70 /* History_SearchCollectionViewCell.xib */,
+				18D700C5275F41190099DF70 /* CollecCollectionViewCell.swift */,
+				18D700C6275F41190099DF70 /* CollecCollectionViewCell.xib */,
+				18A575922760A08600CE3F85 /* CollhisCollectionViewCell.swift */,
+				18A575932760A08600CE3F85 /* CollhisCollectionViewCell.xib */,
+			);
+			path = Type_Search_Cell;
+			sourceTree = "<group>";
+		};
+		3AA720FC1A2939D01F701F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D35FB7DF761295E370C853E /* Pods_MangaRead.framework */,
+				BC6D4EAB3583818247454448 /* Pods_MangaRead_MangaReadUITests.framework */,
+				E107E2A9CF568CBBCE0E58AA /* Pods_MangaReadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAC1AEDC4D0BAC172EC7D5E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F0E7659AB6798F02D8B6FFD /* Pods-MangaRead.debug.xcconfig */,
+				21ECAD8203E01479F10DE73C /* Pods-MangaRead.release.xcconfig */,
+				817FE945648F4C9050BFD2D4 /* Pods-MangaRead-MangaReadUITests.debug.xcconfig */,
+				96FF24CD85916BE4A9310752 /* Pods-MangaRead-MangaReadUITests.release.xcconfig */,
+				9E2DF19868AB18C8E0DFC768 /* Pods-MangaReadTests.debug.xcconfig */,
+				4F36616CD887A990C00F0A37 /* Pods-MangaReadTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1889B6EC2706065E0006866F /* MangaRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1889B717270606600006866F /* Build configuration list for PBXNativeTarget "MangaRead" */;
+			buildPhases = (
+				2C55B3999DD014A74CE99AEC /* [CP] Check Pods Manifest.lock */,
+				1889B6E92706065E0006866F /* Sources */,
+				1889B6EA2706065E0006866F /* Frameworks */,
+				1889B6EB2706065E0006866F /* Resources */,
+				F43525AD54E6FF2DF7C557A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MangaRead;
+			productName = MangaRead;
+			productReference = 1889B6ED2706065E0006866F /* MangaRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1889B7022706065F0006866F /* MangaReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1889B71A270606600006866F /* Build configuration list for PBXNativeTarget "MangaReadTests" */;
+			buildPhases = (
+				4F835D1EF364854AAE291552 /* [CP] Check Pods Manifest.lock */,
+				1889B6FF2706065F0006866F /* Sources */,
+				1889B7002706065F0006866F /* Frameworks */,
+				1889B7012706065F0006866F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1889B7052706065F0006866F /* PBXTargetDependency */,
+			);
+			name = MangaReadTests;
+			productName = MangaReadTests;
+			productReference = 1889B7032706065F0006866F /* MangaReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1889B70D270606600006866F /* MangaReadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1889B71D270606600006866F /* Build configuration list for PBXNativeTarget "MangaReadUITests" */;
+			buildPhases = (
+				BBF4B3DAE71D43368A3BEA38 /* [CP] Check Pods Manifest.lock */,
+				1889B70A270606600006866F /* Sources */,
+				1889B70B270606600006866F /* Frameworks */,
+				1889B70C270606600006866F /* Resources */,
+				C9EFB8AC331B4561940B0F61 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1889B710270606600006866F /* PBXTargetDependency */,
+			);
+			name = MangaReadUITests;
+			productName = MangaReadUITests;
+			productReference = 1889B70E270606600006866F /* MangaReadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1889B6E52706065E0006866F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1889B6EC2706065E0006866F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1889B7022706065F0006866F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1889B6EC2706065E0006866F;
+					};
+					1889B70D270606600006866F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1889B6EC2706065E0006866F;
+					};
+				};
+			};
+			buildConfigurationList = 1889B6E82706065E0006866F /* Build configuration list for PBXProject "MangaRead" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1889B6E42706065E0006866F;
+			productRefGroup = 1889B6EE2706065E0006866F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1889B6EC2706065E0006866F /* MangaRead */,
+				1889B7022706065F0006866F /* MangaReadTests */,
+				1889B70D270606600006866F /* MangaReadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1889B6EB2706065E0006866F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D700C8275F411A0099DF70 /* CollecCollectionViewCell.xib in Resources */,
+				1889B6FD2706065F0006866F /* LaunchScreen.storyboard in Resources */,
+				18D700BE275F389A0099DF70 /* historyCellCollectionViewCell.xib in Resources */,
+				188E3A812721A534006605C3 /* LabelPopularCollectionViewCell.xib in Resources */,
+				1893067A271FCDAE007F0786 /* PopularCollectionViewCell.xib in Resources */,
+				18A575952760A08600CE3F85 /* CollhisCollectionViewCell.xib in Resources */,
+				1856D63127265645001E9D96 /* InforMangaCollectionViewCell.xib in Resources */,
+				18BBA8632762068900BEE773 /* favChildernCollectionViewCell.xib in Resources */,
+				189B41D62759DDB8007D285A /* hisCollectionViewCell.xib in Resources */,
+				18EB0E882756285100462AE8 /* saveCollectionViewCell.xib in Resources */,
+				18BBA859276205CC00BEE773 /* favCollectionViewCell.xib in Resources */,
+				18930691271FEB05007F0786 /* pplarCollectionViewCell.xib in Resources */,
+				18930681271FCDD1007F0786 /* LastestChapterCollectionViewCell.xib in Resources */,
+				18D700A3275F10FD0099DF70 /* Type_SearchCollectionViewCell.xib in Resources */,
+				185EC4CC2716DB9D00190FB7 /* ChpaterCollectionViewCell.xib in Resources */,
+				1856D6382726565E001E9D96 /* collctionCollectionViewCell.xib in Resources */,
+				18BF38F9276A0BD3000BDFDE /* conCollectionViewCell.xib in Resources */,
+				1856D62A272655FB001E9D96 /* ImageCollectionViewCell.xib in Resources */,
+				18BF3906276A1124000BDFDE /* imagedatCollectionViewCell.xib in Resources */,
+				182D862727684291001C1401 /* saveChildrenCollectionViewCell.xib in Resources */,
+				18D700B4275F38120099DF70 /* LabelTypeCollectionViewCell.xib in Resources */,
+				182D864D27688E67001C1401 /* CollectionViewCell.xib in Resources */,
+				1889B6FA2706065F0006866F /* Assets.xcassets in Resources */,
+				1889B6F82706065E0006866F /* Main.storyboard in Resources */,
+				18BF38EB276A03AB000BDFDE /* SearchTextCollectionViewCell.xib in Resources */,
+				1879F63C27140F020065CEFF /* TruyenCollectionViewCell.xib in Resources */,
+				18AC69D6274CAD1100F99ADF /* buttonCollectionViewCell.xib in Resources */,
+				18930698271FF82C007F0786 /* LatCollectionViewCell.xib in Resources */,
+				189EDC9B2747668C000FFE54 /* PageViewCollectionViewCell.xib in Resources */,
+				188E3A8B2721A551006605C3 /* LabelLastCollectionViewCell.xib in Resources */,
+				182D863327685907001C1401 /* HisChildrenCollectionViewCell.xib in Resources */,
+				18D700AD275F13FC0099DF70 /* History_SearchCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889B7012706065F0006866F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889B70C270606600006866F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C55B3999DD014A74CE99AEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaRead-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F835D1EF364854AAE291552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaReadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF4B3DAE71D43368A3BEA38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaRead-MangaReadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9EFB8AC331B4561940B0F61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaRead-MangaReadUITests/Pods-MangaRead-MangaReadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaRead-MangaReadUITests/Pods-MangaRead-MangaReadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MangaRead-MangaReadUITests/Pods-MangaRead-MangaReadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43525AD54E6FF2DF7C557A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaRead/Pods-MangaRead-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaRead/Pods-MangaRead-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MangaRead/Pods-MangaRead-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1889B6E92706065E0006866F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D700A2275F10FD0099DF70 /* Type_SearchCollectionViewCell.swift in Sources */,
+				18C4F42B2715988800B2B6FC /* TitleService.swift in Sources */,
+				18EB0E872756285100462AE8 /* saveCollectionViewCell.swift in Sources */,
+				18AC69CF274C9DDA00F99ADF /* Cus.swift in Sources */,
+				1856D63D2726B087001E9D96 /* AuthorModel.swift in Sources */,
+				18473668275C549400A90E9F /* TypeService.swift in Sources */,
+				1856D6422726B399001E9D96 /* AuthorService.swift in Sources */,
+				18BF3905276A1124000BDFDE /* imagedatCollectionViewCell.swift in Sources */,
+				18D700BD275F389A0099DF70 /* historyCellCollectionViewCell.swift in Sources */,
+				1879F63B27140F020065CEFF /* TruyenCollectionViewCell.swift in Sources */,
+				18BBA858276205CC00BEE773 /* favCollectionViewCell.swift in Sources */,
+				182D864C27688E67001C1401 /* CollectionViewCell.swift in Sources */,
+				18BF38DF2769CF70000BDFDE /* SearCh_Service.swift in Sources */,
+				18652013274E2FE400A1C896 /* historyViewController.swift in Sources */,
+				1856C09D270AAE0000292B4F /* MangaUpdateModel.swift in Sources */,
+				189B41D52759DDB8007D285A /* hisCollectionViewCell.swift in Sources */,
+				182D863227685907001C1401 /* HisChildrenCollectionViewCell.swift in Sources */,
+				1850B7FD275C592400E48C94 /* SearchViewController.swift in Sources */,
+				18AC69D5274CAD1100F99ADF /* buttonCollectionViewCell.swift in Sources */,
+				1856C0A8270AB8C100292B4F /* Extention.swift in Sources */,
+				1856D63027265645001E9D96 /* InforMangaCollectionViewCell.swift in Sources */,
+				1893066C271FCCA0007F0786 /* Home1ViewController.swift in Sources */,
+				18930679271FCDAE007F0786 /* PopularCollectionViewCell.swift in Sources */,
+				18BBA8622762068900BEE773 /* favChildernCollectionViewCell.swift in Sources */,
+				18C4F42627157D0300B2B6FC /* TitleModel.swift in Sources */,
+				188E3A802721A534006605C3 /* LabelPopularCollectionViewCell.swift in Sources */,
+				18BF38E42769D740000BDFDE /* TextSearchViewController.swift in Sources */,
+				184DA8412727E8E00030B2C3 /* ReadChapterModel.swift in Sources */,
+				18930697271FF82C007F0786 /* LatCollectionViewCell.swift in Sources */,
+				18930680271FCDD1007F0786 /* LastestChapterCollectionViewCell.swift in Sources */,
+				18BF38EA276A03AB000BDFDE /* SearchTextCollectionViewCell.swift in Sources */,
+				185EC4CB2716DB9D00190FB7 /* ChpaterCollectionViewCell.swift in Sources */,
+				18BF38DA2769CE0D000BDFDE /* TextSearch_Model.swift in Sources */,
+				18A5759A2760A1FC00CE3F85 /* AfterSearchViewController.swift in Sources */,
+				1856D629272655FB001E9D96 /* ImageCollectionViewCell.swift in Sources */,
+				1856D6372726565E001E9D96 /* collctionCollectionViewCell.swift in Sources */,
+				1889B6F12706065E0006866F /* AppDelegate.swift in Sources */,
+				18AC69DC274CC26E00F99ADF /* FavouriteModel.swift in Sources */,
+				18A575942760A08600CE3F85 /* CollhisCollectionViewCell.swift in Sources */,
+				188E3A8A2721A551006605C3 /* LabelLastCollectionViewCell.swift in Sources */,
+				182D863D27688043001C1401 /* Search_Type_Model.swift in Sources */,
+				18473663275C534200A90E9F /* TypeModel.swift in Sources */,
+				18D700AC275F13FC0099DF70 /* History_SearchCollectionViewCell.swift in Sources */,
+				182D8642276880DE001C1401 /* Search_Type_Service.swift in Sources */,
+				1879F6342714016D0065CEFF /* TruyenViewController.swift in Sources */,
+				182D862C2768566E001C1401 /* History_Model.swift in Sources */,
+				189EDC9A2747668C000FFE54 /* PageViewCollectionViewCell.swift in Sources */,
+				1889B6F32706065E0006866F /* SceneDelegate.swift in Sources */,
+				181E002827082D820008A3B6 /* HomeService.swift in Sources */,
+				1879F64C271413460065CEFF /* truyenModel.swift in Sources */,
+				18D700B3275F38120099DF70 /* LabelTypeCollectionViewCell.swift in Sources */,
+				18D700C7275F41190099DF70 /* CollecCollectionViewCell.swift in Sources */,
+				182D862627684290001C1401 /* saveChildrenCollectionViewCell.swift in Sources */,
+				18BBA8252761D86D00BEE773 /* CGPageMenu.swift in Sources */,
+				182D863827687DCC001C1401 /* searchbtn_model.swift in Sources */,
+				18930690271FEB05007F0786 /* pplarCollectionViewCell.swift in Sources */,
+				1879F647271410E50065CEFF /* TruyenService.swift in Sources */,
+				187181BC2754DEC900CB9BFB /* Down_Model.swift in Sources */,
+				18BF38F8276A0BD3000BDFDE /* conCollectionViewCell.swift in Sources */,
+				1856D622272654B0001E9D96 /* InforViewController.swift in Sources */,
+				184DA8462727E9520030B2C3 /* ReadChapterService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889B6FF2706065F0006866F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889B7082706065F0006866F /* MangaReadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1889B70A270606600006866F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1889B713270606600006866F /* MangaReadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1889B7052706065F0006866F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1889B6EC2706065E0006866F /* MangaRead */;
+			targetProxy = 1889B7042706065F0006866F /* PBXContainerItemProxy */;
+		};
+		1889B710270606600006866F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1889B6EC2706065E0006866F /* MangaRead */;
+			targetProxy = 1889B70F270606600006866F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1889B6F62706065E0006866F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1889B6F72706065E0006866F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1889B6FB2706065F0006866F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1889B6FC2706065F0006866F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1889B715270606600006866F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1889B716270606600006866F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1889B718270606600006866F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0E7659AB6798F02D8B6FFD /* Pods-MangaRead.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RN4UT4YX3;
+				INFOPLIST_FILE = MangaRead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dat.MangaRead.jhh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1889B719270606600006866F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21ECAD8203E01479F10DE73C /* Pods-MangaRead.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VC978G3A79;
+				INFOPLIST_FILE = MangaRead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dat.MangaRead.jhh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1889B71B270606600006866F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2DF19868AB18C8E0DFC768 /* Pods-MangaReadTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaReadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dat.MangaReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangaRead.app/MangaRead";
+			};
+			name = Debug;
+		};
+		1889B71C270606600006866F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F36616CD887A990C00F0A37 /* Pods-MangaReadTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaReadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dat.MangaReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangaRead.app/MangaRead";
+			};
+			name = Release;
+		};
+		1889B71E270606600006866F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817FE945648F4C9050BFD2D4 /* Pods-MangaRead-MangaReadUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dat.MangaReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangaRead;
+			};
+			name = Debug;
+		};
+		1889B71F270606600006866F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FF24CD85916BE4A9310752 /* Pods-MangaRead-MangaReadUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dat.MangaReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangaRead;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1889B6E82706065E0006866F /* Build configuration list for PBXProject "MangaRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889B715270606600006866F /* Debug */,
+				1889B716270606600006866F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1889B717270606600006866F /* Build configuration list for PBXNativeTarget "MangaRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889B718270606600006866F /* Debug */,
+				1889B719270606600006866F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1889B71A270606600006866F /* Build configuration list for PBXNativeTarget "MangaReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889B71B270606600006866F /* Debug */,
+				1889B71C270606600006866F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1889B71D270606600006866F /* Build configuration list for PBXNativeTarget "MangaReadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1889B71E270606600006866F /* Debug */,
+				1889B71F270606600006866F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1889B6E52706065E0006866F /* Project object */;
+}

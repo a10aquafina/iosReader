@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PageViewCollectionViewCell" customModule="MangaRead" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="230" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="evk-eL-NxZ">
+                        <rect key="frame" x="53.5" y="10" width="123" height="70"/>
+                        <color key="backgroundColor" red="0.027450980390000001" green="0.070588235289999995" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </pageControl>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="evk-eL-NxZ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="HAl-09-OV0"/>
+                <constraint firstAttribute="bottom" secondItem="evk-eL-NxZ" secondAttribute="bottom" constant="10" id="W7I-Hs-K2F"/>
+                <constraint firstItem="evk-eL-NxZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="zIC-f7-f6l"/>
+            </constraints>
+            <size key="customSize" width="230" height="90"/>
+            <connections>
+                <outlet property="pageControl" destination="evk-eL-NxZ" id="rGI-DX-cLj"/>
+            </connections>
+            <point key="canvasLocation" x="268.1159420289855" y="62.946428571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,40 @@
+PODS:
+  - Kingfisher (7.1.1)
+  - Realm (10.13.0):
+    - Realm/Headers (= 10.13.0)
+  - Realm/Headers (10.13.0)
+  - RealmSwift (10.13.0):
+    - Realm (= 10.13.0)
+  - SDWebImage (5.12.0):
+    - SDWebImage/Core (= 5.12.0)
+  - SDWebImage/Core (5.12.0)
+  - SwiftSoup (2.3.3)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Kingfisher
+  - RealmSwift
+  - SDWebImage
+  - SwiftSoup
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SwiftSoup
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
+  Realm: e3a1225aafa7cec96a020dc199201b9d1f9cd59c
+  RealmSwift: 62585b4a934754a9d9117331689f4e8a5b1f6113
+  SDWebImage: 4ea20cca2986adc5aacde07aa686742fd4c67a37
+  SwiftSoup: 8e4844e785a975744f2c2606f8b3844ef67eb259
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 4f4bf36c660e52e6d75dd404b6f99816daaf16cf
+
+COCOAPODS: 1.10.1

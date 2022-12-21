@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="buttonCollectionViewCell" customModule="MangaRead" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="234" height="89"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="234" height="89"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fn-s8-6it">
+                        <rect key="frame" x="163" y="0.0" width="21" height="22"/>
+                        <state key="normal" image="fav"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRj-9j-Pzy">
+                        <rect key="frame" x="199" y="0.0" width="20" height="22"/>
+                        <state key="normal" image="share"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Danh sách chương" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIB-Mb-WBA">
+                        <rect key="frame" x="20" y="0.0" width="150" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PRj-9j-Pzy" secondAttribute="trailing" constant="15" id="5QU-oS-rle"/>
+                <constraint firstItem="PRj-9j-Pzy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="GR1-gE-sio"/>
+                <constraint firstItem="gIB-Mb-WBA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="IiB-pp-gX5"/>
+                <constraint firstItem="gIB-Mb-WBA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="NPF-94-4aE"/>
+                <constraint firstItem="PRj-9j-Pzy" firstAttribute="leading" secondItem="1Fn-s8-6it" secondAttribute="trailing" constant="15" id="c55-C5-bhS"/>
+                <constraint firstItem="1Fn-s8-6it" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="u5g-Uz-qrq"/>
+            </constraints>
+            <size key="customSize" width="234" height="89"/>
+            <connections>
+                <outlet property="Share" destination="PRj-9j-Pzy" id="907-RP-Rn8"/>
+                <outlet property="Timdo" destination="1Fn-s8-6it" id="MDm-rd-HHU"/>
+            </connections>
+            <point key="canvasLocation" x="31.884057971014496" y="115.51339285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fav" width="21" height="19"/>
+        <image name="share" width="20" height="22"/>
+    </resources>
+</document>

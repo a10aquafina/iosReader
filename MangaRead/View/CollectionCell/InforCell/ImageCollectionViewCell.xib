@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ImageCollectionViewCell" customModule="MangaRead" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="237" height="171"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="237" height="171"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nrF-tV-Sy4">
+                        <rect key="frame" x="0.0" y="0.0" width="237" height="171"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="23v-u3-a04">
+                                <rect key="frame" x="0.0" y="0.0" width="237" height="171"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kv2-DU-nb7">
+                                <rect key="frame" x="7" y="0.0" width="230" height="154"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ppz-BC-91j">
+                                        <rect key="frame" x="0.0" y="0.0" width="230" height="154"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Ppz-BC-91j" secondAttribute="trailing" id="QbN-OF-PhH"/>
+                                    <constraint firstItem="Ppz-BC-91j" firstAttribute="leading" secondItem="kv2-DU-nb7" secondAttribute="leading" id="Y79-3H-YLM"/>
+                                    <constraint firstItem="Ppz-BC-91j" firstAttribute="top" secondItem="kv2-DU-nb7" secondAttribute="top" id="dOp-Og-ViE"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ppz-BC-91j" secondAttribute="bottom" id="ocf-jS-Up4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="23v-u3-a04" firstAttribute="top" secondItem="nrF-tV-Sy4" secondAttribute="top" id="2ZI-nL-ZvG"/>
+                            <constraint firstAttribute="trailing" secondItem="23v-u3-a04" secondAttribute="trailing" id="Itu-ID-d4Q"/>
+                            <constraint firstAttribute="bottom" secondItem="23v-u3-a04" secondAttribute="bottom" id="P4i-oi-fUQ"/>
+                            <constraint firstItem="kv2-DU-nb7" firstAttribute="top" secondItem="nrF-tV-Sy4" secondAttribute="top" id="SXH-SE-Ygq"/>
+                            <constraint firstItem="kv2-DU-nb7" firstAttribute="centerX" secondItem="nrF-tV-Sy4" secondAttribute="centerX" multiplier="1.03" id="fFm-18-09F"/>
+                            <constraint firstItem="kv2-DU-nb7" firstAttribute="centerY" secondItem="nrF-tV-Sy4" secondAttribute="centerY" multiplier="0.9" id="fmi-O7-WYj"/>
+                            <constraint firstItem="23v-u3-a04" firstAttribute="leading" secondItem="nrF-tV-Sy4" secondAttribute="leading" id="nRz-id-P1x"/>
+                            <constraint firstAttribute="trailing" secondItem="kv2-DU-nb7" secondAttribute="trailing" id="tnq-EB-MPO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="nrF-tV-Sy4" secondAttribute="bottom" id="Dik-DV-mxb"/>
+                <constraint firstAttribute="trailing" secondItem="nrF-tV-Sy4" secondAttribute="trailing" id="Xma-7b-sko"/>
+                <constraint firstItem="nrF-tV-Sy4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ecj-RN-1pt"/>
+                <constraint firstItem="nrF-tV-Sy4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lzy-xK-Ctf"/>
+            </constraints>
+            <size key="customSize" width="237" height="171"/>
+            <connections>
+                <outlet property="Image" destination="Ppz-BC-91j" id="w1V-fJ-bdl"/>
+                <outlet property="ImageGray" destination="23v-u3-a04" id="rnm-aT-uua"/>
+                <outlet property="ViewImage" destination="kv2-DU-nb7" id="I3J-yF-Njt"/>
+                <outlet property="ViewImageGray" destination="nrF-tV-Sy4" id="vEU-n7-1qT"/>
+            </connections>
+            <point key="canvasLocation" x="414" y="81"/>
+        </collectionViewCell>
+    </objects>
+</document>
